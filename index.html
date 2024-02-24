@@ -3,17 +3,15 @@
    <head>
       <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-      <title>XLarge Screen jfarmsboulder Website</title>
+      <title>Large Screen jfarmsboulder Website</title>
    </head>
       <style>
          body {
             background-color: #8AA5C1;
+            /*margin: 2em;*/
          }
          #container {
-            /*max-width: 95em;*/
-            /*width: 112em;*/
-            width: 120em;
-            /*margin: 5em 5em 5em 5em;*/
+            max-width: 90em;
             margin: 5em 5em 5em 5em;
             box-sizing: border-box;
             font-family: Georgia, 'Times New Roman', Times, serif;
@@ -22,8 +20,8 @@
         #layout {
             display: grid;
             /*grid-template-rows: 24em 24em 27em;*/
-            grid-template-rows: 27.5em 24em 27em 27em 5em .125em;
-            grid-template-columns: 25.15em 29.65em 25.15em 25.15em;
+            grid-template-rows: 27.5em 24em 27em;
+            grid-template-columns: 25.15em 29.65em 25.15em;
             grid-row-gap: .5em;
             grid-column-gap: .5em;
         }
@@ -56,35 +54,30 @@
             border-style: solid;
             border-width: .125;
             background-color: lemonchiffon;
-            grid-column: 4;
-            grid-row: 1 / span 2; 
+            grid-column: 1 / span 3;
+            grid-row: 3 / span 4; 
          }
-         five {
-            padding: .5em;
-            border-width: .125;
-            background-color: lemonchiffon;
-            grid-column: 1 / span 4;
-            grid-row: 4 / span 5;
-         }
-         #six {
-            text-align: center;
-            padding: .5em;
-            border-style: none;
-            border-width: .125;
-            background-color:#8AA5C1;
-            grid-column: 1 / span 4;
-            grid-row: 6;
-         } 
-      /*#seven {
+         #five {
             padding: .5em;
             border-style: solid;
             border-width: .125;
             background-color: lemonchiffon;
-            text-align: center;
-            grid-column: 1 / span 4;
-            grid-row: 8 / span 9;
-         }*/
+            border-style: solid;
+            border-width: .125;
+            border-color: black;
+            grid-column: 1;
+            grid-row: 7;
+         }
          
+         #six {
+            padding: .5em;
+            border-style: solid;
+            border-width: .125;
+            background-color: lemonchiffon;
+            grid-column: 2 / span 3;
+            grid-row: 7;
+            text-align: center;
+         }
          img {
             border-width: .5em;
             border-style: solid;
@@ -102,13 +95,6 @@
             border: .125em solid darkgray;
             margin: auto;
          }
-         /*#senzaiExample {
-            display: block;
-         }
-         #senzaiPlants {
-            display: block;
-            line-height: .125em;
-         }*/
       </style>
    <body>
       <div id="container">
@@ -163,34 +149,18 @@
                         </div>
             </div>
             <div id="four">
-                  <img src="https://github.com/expansestream/butterflygarden/blob/main/finding_Solice.png?raw=true">
-                  <!---<div id="senzaiExample">
-                     
-                     <div id="senzaiPlants">
-                         <p style="text-decoration: underline">Senzai Indoors</p>
-                         <p>Spider Plants</p>
-                         <p>Agavi</p>
-                         <p>Road Trip</p>
-                         <p>Amaryllis</p>
-                         <p>Cranton</p>
-                         <p>Birthday Assortment</p> 
-                     </div>
-                 </div>--->
+                  <img src="https://github.com/expansestream/butterflygarden/blob/main/finding_Solice.png?raw=true" alt="Finding Solice in the Soil">
                   <p>While active in St. John&#8217;s Episcopal Cathedral&#8217;s Green Team, the co-managers were introduced to Dr. Bonnie J. Clark&#8217;s book <span style="text-decoration: underline">Finding Solace in the Soil</span>. Dr. Clark, the Chair of The University of Denver&#8217;s Anthropology Department, recounts 10 field seasons studying the gardens within the Amache internment camp in eastern Colorado. Dr. Clark&#8217;s graduate students excavated and documented the growing spaces tended by Japanese Americans between 1942-1945 at Amache. Her book was read while recuperating from hip surgery. It was an immense source of vision and encouragement, as seen in this self-running PowerPoint.</p>         
-                  <img src="https://github.com/expansestream/butterflygarden/blob/main/IMG_0390.jpg?raw=true" height="150" width="auto" alt="Senzai Indoors">
-                  <p>One of Dr. Clark&#8217;s takeaways is the idea of Senzai, a term applied to Japanese gardening. Senzai has its roots in the ancient Japanese capital of Kyoto and is used to describe a simple garden space, commonly containing at most 5 favorite species. Simple in stature, it is a place of profound peace. We were struck with the realization that according to Japanese gardening, one does not have to plant an entire expanse. Fields of green are nice, but a small space outside a window, on a shelf, in a corner of the yard, or in containers, is just fine!</p>
-                  
+                  <p>One of Dr. Clark&#8217;s takeaways is the idea of Senzai, a term applied to Japanese gardening. Senzai has its roots in the ancient Japanese capital of Kyoto and is used to describe a simple garden space, commonly containing at most 5 favorite species. Simple in stature, it is a place of profound peace. We were struck with the realization that according to Japanese gardening, one does not have to plant an entire expanse. Fields of green are nice, but a small space outside a window, on a shelf, in a corner of the yard, or in containers, will do just fine!</p>
+                  <img style="border-style: inset" src="https://github.com/expansestream/butterflygarden/blob/main/bookdiscussion3-15-23.gif?raw=true" height="712" width="auto" alt="Power Point">
             </div>
             <div id="five">
-               <!---<p>I like the idea of setting stones as the beginning of creating a garden. In fact, setting stones is in of itself a garden! No wonder Haystack Rock on the Oregon coast and the Boulder flatirons are so inspiring!</p>
-               <img src="https://github.com/expansestream/butterflygarden/blob/main/Haystack_Rock_jfarms.jpg?raw=true" height="465" width="auto" alt="Haystack Rock">--->
-               <img style="border-style: inset" src="https://github.com/expansestream/butterflygarden/blob/main/bookdiscussion3-15-23.gif?raw=true" height="950" width="auto" alt="Power Point">
+               <img src="https://github.com/expansestream/butterflygarden/blob/main/Haystack_Rock_jfarms.jpg?raw=true" height="465" width="auto" alt="Haystack Rock">
+               <p>I like the idea of setting stones as the beginning of creating a garden. In fact, setting stones is in of itself a garden! No wonder Haystack Rock on the Oregon coast and the Boulder flatirons are so inspiring!</p>
             </div>
             <div id="six">
-               <p>jfarmsboulder  9127 West Radcliffe Drive Littleton, CO 80123-1125  (303) 638-1965  <a href="mailto:jfarmsboulder@gmail.com">jfarmsboulder@gmail.com</a></p>  
+               <p style="margin: 10em 0em 5em 0em"> jfarmsboulder  9127 West Radcliffe Drive Littleton, CO 80123-1125  (303) 638-1965  <a href="mailto:jfarmsboulder@gmail.com">jfarmsboulder@gmail.com</a></r>
             </div>
-            <!---<div id="seven">
-            </div>--->
         </div>
       <script>
       <!---JavaScript Statements Here--->
